@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Twitter Login</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f8fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .login-box {
+      background-color: #ffffff;
+      width: 100%;
+      max-width: 360px;
+      padding: 40px 30px;
+      border-radius: 8px;
+      border: 1px solid #ccd6dd;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto 25px;
+      width: 50px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 22px;
+      margin-bottom: 25px;
+      color: #14171a;
+    }
+
+    label {
+      font-weight: bold;
+      font-size: 14px;
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      margin-bottom: 16px;
+      border: 1px solid #ccd6dd;
+      border-radius: 5px;
+      background-color: #f5f8fa;
+    }
+
+    .btn-login {
+      width: 100%;
+      background-color: #1da1f2;
+      color: white;
+      font-size: 14px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .btn-login:hover {
+      background-color: #0d8ddb;
+    }
+
+    .forgot {
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .forgot a {
+      color: #1da1f2;
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    .forgot a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 400px) {
+      .login-box {
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-box">
+    <!-- Twitter logo -->
+    <img src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" 
+         alt="Twitter Logo" 
+         class="logo">
+
+    <!-- Heading -->
+    <h1>Log in to Twitter</h1>
+
+    <!-- Email and Password inputs -->
+    <label for="email">Phone, email, or username</label>
+    <input type="text" id="email" name="email" required>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+
+    <!-- Log in button -->
+    <button class="btn-login">Log In</button>
+
+    <!-- Forgot link -->
+    <div class="forgot">
+      <a href="#">Forgot password?</a>
+    </div>
+  </div>
+
+</body>
+</html>
