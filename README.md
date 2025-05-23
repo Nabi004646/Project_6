@@ -23,7 +23,7 @@
 ## 🌐 Live Demo
 
 🎉 **Experience the Project Live Here:**  
-🔗 [🌍 Visit the Live Website →](https://nbasicproject6.nettlify.app)
+🔗 [🌍 Visit the Live Website →](https://nbasicproject6.netlify.app)
 
 ---
 
